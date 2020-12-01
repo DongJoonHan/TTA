@@ -7,3 +7,12 @@ https://github.com/ojdkbuild/ojdkbuild
 ```
 mvn archetype:generate -DgroupId=kr.godev.opensource -DartifactId=my_project -DinteractiveMode=false
 ```
+
+## Cobertura 플러그인설징
+```
+        <configuration>
+          <formats>
+       <format>xml</format>
+     </formats>
+        </configuration>
+```
